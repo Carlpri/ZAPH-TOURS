@@ -1,9 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar.jsx';
 
-import TripTypes from './pages/TripTypes.jsx';
+import TripTypes from './pages/TripTypes';
 import Destination from './pages/Destination';
 import Contact from './pages/contact';
+
 import Home from './pages/Home';
 import './App.css'; 
 function App() {
@@ -25,7 +26,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/tripTypes" element={<TripTypes />} />
           <Route path="/destination" element={<Destination />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact Us/>} />
         </Routes>
       </div>
     </Router>
