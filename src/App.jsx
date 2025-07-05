@@ -3,7 +3,7 @@ import Navbar from './components/Navbar.jsx';
 
 import TripTypes from './pages/TripTypes';
 import Destination from './pages/Destination';
-import Contact from './pages/contact';
+import Contact from './pages/Contact.jsx';
 
 import Home from './pages/Home';
 import './App.css'; 
